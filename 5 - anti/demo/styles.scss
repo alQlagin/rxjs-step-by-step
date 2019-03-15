@@ -1,0 +1,27 @@
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../../node_modules/bootstrap/scss/bootstrap-grid";
+
+* {
+  user-select: none;
+}
+
+#list {
+  max-height: 500px;
+  width: 170px;
+  overflow: auto;
+}
+
+.icon-selector {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.dot {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border: 1.5px solid blue;
+  border-radius: 50%;
+  background: yellow;
+}

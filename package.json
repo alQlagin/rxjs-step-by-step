@@ -1,0 +1,23 @@
+{
+  "name": "rxjs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^7.2.4",
+    "@angular/core": "^7.2.4",
+    "@angular/router": "^7.2.4",
+    "bootstrap": "^4.3.1",
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "sass": "^1.17.1",
+    "typescript": "^3.3.3"
+  }
+}
